@@ -1,0 +1,168 @@
+.a{
+font-style: bold;
+font-size: 24px;
+color: blue;
+text-align: center;
+}
+
+.b
+{
+	/*padding: 50px;*/
+	padding-left: 95px !important;
+}
+
+.carousel-item > img
+{
+height: 50vh !important;
+}
+
+@media only screen and (max-width: 500px)
+{
+
+	.carousel-item > img
+{
+height: 200px;
+}
+
+}
+
+.main-content {
+
+min-height: calc(100vh - 25vh);
+}
+
+.footer{
+
+background-color: #343a40; 
+/*position:fixed;*/
+bottom: 0;
+height: 25%;
+}
+
+/*Class 13*/
+/*.footer div.company-portion span.company-name{
+
+color: #ffffff;
+padding-left: 25px;
+}*/
+
+.footer div.company-portion h5{
+
+color: #ffffff;
+padding-left: 25px;
+}
+
+.footer div.company-portion > p{
+
+color: #ffffff;
+
+/*padding-left: 25px;*/
+}
+
+.footer div.links-heading > h5{
+
+color: #ffffff;
+padding-left: 25px; 
+}
+
+.footer ul.unstyle-list {
+
+list-style-type: none;
+color: #ffffff;
+
+}
+
+.footer ul.unstyle-list a{
+
+/*list-style-type: none;*/
+color: #ffffff;
+text-decoration: none;
+padding-right: 15px;
+
+
+}
+
+
+.footer ul.social-icon a{
+
+font-size: 20px;
+padding: 7px;
+color: #ffffff;
+
+}
+
+.footer ul.social-icon a:hover
+{
+font-size: 40px;
+transition: 0.9s;
+}
+
+.footer ul.unstyle-list a:hover{
+
+margin-left: 5px;
+
+}
+
+
+.footer p.footer-link > a {
+
+	color: white;
+	transition: 0.9s;
+}
+
+.footer p.footer-link > a:hover {
+font-size: 20px;
+color: #C6F545;
+}
+
+.header {
+
+	color: #ffffff;
+}
+
+.nav-link {
+
+	color: #ffffff !important;
+}
+
+ .login-heading{
+ 	color: green;
+ 	text-align: center;
+ }
+ .email-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .password-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .user-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .confirm-password-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .login-container{
+ 	margin-top: 10%;
+ }
+ .login-submit{
+ 	
+
+ }
+ .error{
+ 	border: 1px solid red !important;
+ }
+ .success{
+ 	border: 1px solid green !important;
+ }

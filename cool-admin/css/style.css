@@ -1,0 +1,17 @@
+.right-button{
+	float: right !important;
+	margin-left: 10px !important;
+}
+.card-heading{
+	display: inline;
+	font-family: italic;
+	font-size: 34px !important;
+	font-weight: bold;
+	color: #E67E22;
+	text-align: center;
+	line-height: 40px;
+}
+.btn-primary {
+	background-color: #E67E22 !important;
+	border-color: #E67E22 !important;
+}
